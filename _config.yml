@@ -13,11 +13,24 @@ author:
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-include-cache
 
-paginate: 5
+paginate: 10
 paginate_path: "/page:num"
+
+# Jekyll Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    category: "/categories/:name/"
+    tag: "/tags/:name/"
 
 header_pages:
   - index.md
@@ -40,9 +53,22 @@ header_pages:
 # remote_theme: mmistakes/minimal-mistakes@3.4.1
 theme: jekyll-theme-primer
 
-# 评论系统占位（可配置 Disqus）
-disqus:
-  shortname: your-disqus-shortname
+# 评论系统
+# disqus:
+#   shortname: your-disqus-shortname
+
+# 数学公式支持
+math: true
+
+# 语法高亮
+markdown:
+  highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span: {line_numbers: false}
+    block:
+      line_numbers: true
+      start_line: 1
 
 # Markdown & syntax highlighting
 markdown: kramdown

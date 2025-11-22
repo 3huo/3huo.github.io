@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-author_profile: true
 permalink: /about/
 ---
 
@@ -11,7 +10,7 @@ Hi! I'm Your Name. This is my personal blog built with GitHub Pages and Jekyll.
 
 ## About This Blog
 
-This blog is powered by [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme for Jekyll. It's designed to be clean, responsive, and easy to use.
+This blog is powered by [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme for Jekyll. It's a feature-rich, fast, and responsive theme designed for technical documentation and personal blogs.
 
 ## Contact
 
