@@ -10,7 +10,7 @@ author:
     github: your-username
     twitter: your-twitter
 
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: cotes2020/jekyll-theme-chirpy@v1.4.0
 #theme: jekyll-theme-tactile
 
 plugins:
