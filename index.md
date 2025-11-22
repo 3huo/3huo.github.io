@@ -1,10 +1,18 @@
 ---
-layout: home
+layout: default
 title: Home
-featured_posts:
-  - 2025-11-22-welcome
 ---
 
 # Welcome to My Blog
 
-This is the homepage of my GitHub Pages site using Remote Theme.
+This is the homepage of my enhanced blog.
+
+## Latest Posts
+
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+  </li>
+{% endfor %}
+</ul>
