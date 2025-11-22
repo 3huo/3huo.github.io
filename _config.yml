@@ -23,8 +23,22 @@ header_pages:
   - index.md
   - about.md
 
-#remote_theme: mmistakes/minimal-mistakes@3.4.1
-theme: jekyll-theme-merlot
+# Minimal Mistakes 主题配置
+defaults:
+  # _posts
+  - scope:
+      path: ""  # 所有文件
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+remote_theme: mmistakes/minimal-mistakes@3.4.1
+#theme: jekyll-theme-merlot
 
 # 评论系统占位（可配置 Disqus）
 disqus:
