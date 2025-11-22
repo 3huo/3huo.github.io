@@ -2,11 +2,29 @@ title: My GitHub Pages Blog
 description: This is my personal blog built with GitHub Pages
 baseurl: ""
 url: "https://3huo.github.io"
+
+author:
+  name: Your Name
+  email: your-email@example.com
+  social:
+    github: your-username
+    twitter: your-twitter
+
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+paginate: 5
+
 remote_theme: mmistakes/minimal-mistakes@3.4.1
-author:
-  name: Yancheng Wang
-  email: your-email@example.com
-markdown: kramdown
 theme: null
+
+# 评论系统占位（可配置 Disqus）
+disqus:
+  shortname: your-disqus-shortname
+
+# Markdown & syntax highlighting
+markdown: kramdown
+highlighter: rouge
