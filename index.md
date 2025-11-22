@@ -1,6 +1,8 @@
 ---
 layout: home
 title: Home
+featured_posts:
+  - 2025-11-22-welcome
 ---
 
 # Welcome to My Blog

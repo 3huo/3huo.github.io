@@ -17,6 +17,11 @@ plugins:
   - jekyll-seo-tag
 
 paginate: 5
+paginate_path: "/page:num"
+
+header_pages:
+  - index.md
+  - about.md
 
 remote_theme: mmistakes/minimal-mistakes@3.4.1
 theme: null
