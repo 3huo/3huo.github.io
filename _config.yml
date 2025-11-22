@@ -4,7 +4,7 @@ baseurl: ""
 url: "https://3huo.github.io"
 plugins:
   - jekyll-remote-theme
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+remote_theme: mmistakes/minimal-mistakes@3.4.1
 author:
   name: Yancheng Wang
   email: your-email@example.com
