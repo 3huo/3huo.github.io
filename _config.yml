@@ -10,6 +10,9 @@ author:
     github: your-username
     twitter: your-twitter
 
+remote_theme: cotes2020/jekyll-theme-chirpy
+#theme: jekyll-theme-tactile
+
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
@@ -51,7 +54,21 @@ header_pages:
 #       related: true
 
 # remote_theme: mmistakes/minimal-mistakes@3.4.1
-theme: jekyll-theme-primer
+# theme: jekyll-theme-primer
+
+# 导航菜单配置
+menu:
+  Home: /
+  Categories: /categories/
+  Tags: /tags/
+  About: /about/
+
+# 主题配色方案
+theme_mode: light
+
+# 时间格式
+timezone: Asia/Shanghai
+date_format: "%Y-%m-%d"
 
 # 评论系统
 # disqus:
